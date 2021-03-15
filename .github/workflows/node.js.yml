@@ -24,11 +24,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Install yarn
-      run: npm install yarn
-      
+ 
     - name: Install dependencies
-      run: yarn install
+      run: npm install --legacy-peer-deps
 
     - name: Run the tests
       run: npm test
