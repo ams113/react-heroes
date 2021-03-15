@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Components: LoginPage should render correctly 1`] = `
+<div
+  className="login-container text-center"
+>
+  <div
+    className="form-signin"
+  >
+    <img
+      alt="logo"
+      className="rounded mb-4"
+      height="150"
+      src="http://localhost/assets/logo-login.jpg"
+      width="150"
+    />
+    <h1
+      className="h3 mb-3 font-weight-normal"
+    >
+      Heroes Login
+    </h1>
+    <input
+      className="form-control"
+      id="inputEmail"
+      placeholder="Email address"
+      required={true}
+      type="email"
+    />
+    <input
+      className="form-control"
+      id="inputPassword"
+      placeholder="Password"
+      required={true}
+      type="password"
+    />
+    <div
+      className="checkbox mb-3"
+    >
+      <label>
+        <input
+          type="checkbox"
+          value="remember-me"
+        />
+        Remember me
+      </label>
+    </div>
+    <button
+      className="btn btn-lg btn-dark btn-block"
+      onClick={[Function]}
+      type="submit"
+    >
+      Sign in
+    </button>
+    <p
+      className="red mt-5 mb-3"
+    >
+      © 2020-2021
+    </p>
+  </div>
+</div>
+`;

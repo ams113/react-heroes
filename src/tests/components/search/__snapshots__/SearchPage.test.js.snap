@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Components: SearchPage should render Batman Card and input with queryString value 1`] = `
+<div>
+  <div
+    className="d-none d-sm-block"
+  >
+    <h1>
+      Search heroes
+    </h1>
+    <hr />
+  </div>
+  <div
+    className="row animate__animated animate__fadeIn"
+  >
+    <div
+      className="col-md-4"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="d-grid gap-2 mb-3"
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="searchText"
+            onChange={[Function]}
+            placeholder="Find you hero"
+            type="text"
+            value="batman"
+          />
+          <button
+            className="btn btn-outline-primary"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-md-6 offset-lg-1"
+    >
+      <h4>
+        Results:
+      </h4>
+      <div
+        className="col"
+      >
+        <div
+          className="card md-3"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="Batman"
+                className="img-fluid"
+                src="./assets/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Batman
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Bruce Wayne
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    Detective Comics #27
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-batman"
+                  onClick={[Function]}
+                >
+                  More info ...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing Components: SearchPage should render alert error if the hero is not found 1`] = `
+<div>
+  <div
+    className="d-none d-sm-block"
+  >
+    <h1>
+      Search heroes
+    </h1>
+    <hr />
+  </div>
+  <div
+    className="row animate__animated animate__fadeIn"
+  >
+    <div
+      className="col-md-4"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="d-grid gap-2 mb-3"
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="searchText"
+            onChange={[Function]}
+            placeholder="Find you hero"
+            type="text"
+            value="foo-man"
+          />
+          <button
+            className="btn btn-outline-primary"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-md-6 offset-lg-1"
+    >
+      <h4>
+        Results:
+      </h4>
+      <div
+        className="alert alert-danger"
+      >
+        There is not a hero with 
+        <strong>
+          foo-man
+        </strong>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing Components: SearchPage should render correctly with default values 1`] = `
+<div>
+  <div
+    className="d-none d-sm-block"
+  >
+    <h1>
+      Search heroes
+    </h1>
+    <hr />
+  </div>
+  <div
+    className="row animate__animated animate__fadeIn"
+  >
+    <div
+      className="col-md-4"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="d-grid gap-2 mb-3"
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="searchText"
+            onChange={[Function]}
+            placeholder="Find you hero"
+            type="text"
+            value=""
+          />
+          <button
+            className="btn btn-outline-primary"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-md-6 offset-lg-1"
+    >
+      <h4>
+        Results:
+      </h4>
+      <div
+        className="alert alert-secondary"
+      >
+        Search a hero
+      </div>
+    </div>
+  </div>
+</div>
+`;
