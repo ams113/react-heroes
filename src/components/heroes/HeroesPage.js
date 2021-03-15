@@ -37,7 +37,7 @@ export const HeroesPage = ( {history} ) => {
             
             <div className="col-4">
                 <img 
-                    src={`../assets/${ id }.jpg` }
+                    src={`${window.location.origin}/public/assets/${ id }.jpg`} 
                     alt={ superhero }
                     className="img-thumbnail animate__animated animate__zoomInDown"
                 />

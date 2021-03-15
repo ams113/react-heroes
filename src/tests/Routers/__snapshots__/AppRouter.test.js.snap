@@ -12,7 +12,7 @@ exports[`Testing Routers: AppRouter should render login component if user is not
         alt="logo"
         className="rounded mb-4"
         height="150"
-        src="http://localhost/assets/logo-login.jpg"
+        src="http://localhost/public/assets/logo-login.jpg"
         width="150"
       />
       <h1

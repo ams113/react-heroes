@@ -135,7 +135,7 @@ Array [
                 <img
                   alt="Spider Man"
                   className="img-fluid"
-                  src="./assets/marvel-spider.jpg"
+                  src="http://localhost/public/assets/marvel-spider.jpg"
                 />
               </div>
               <div
@@ -194,7 +194,7 @@ Array [
                 <img
                   alt="Captain America"
                   className="img-fluid"
-                  src="./assets/marvel-captain.jpg"
+                  src="http://localhost/public/assets/marvel-captain.jpg"
                 />
               </div>
               <div
@@ -253,7 +253,7 @@ Array [
                 <img
                   alt="Iron Man"
                   className="img-fluid"
-                  src="./assets/marvel-iron.jpg"
+                  src="http://localhost/public/assets/marvel-iron.jpg"
                 />
               </div>
               <div
@@ -312,7 +312,7 @@ Array [
                 <img
                   alt="Thor"
                   className="img-fluid"
-                  src="./assets/marvel-thor.jpg"
+                  src="http://localhost/public/assets/marvel-thor.jpg"
                 />
               </div>
               <div
@@ -371,7 +371,7 @@ Array [
                 <img
                   alt="Hulk"
                   className="img-fluid"
-                  src="./assets/marvel-hulk.jpg"
+                  src="http://localhost/public/assets/marvel-hulk.jpg"
                 />
               </div>
               <div
@@ -430,7 +430,7 @@ Array [
                 <img
                   alt="Wolverine"
                   className="img-fluid"
-                  src="./assets/marvel-wolverine.jpg"
+                  src="http://localhost/public/assets/marvel-wolverine.jpg"
                 />
               </div>
               <div
@@ -489,7 +489,7 @@ Array [
                 <img
                   alt="Daredevil"
                   className="img-fluid"
-                  src="./assets/marvel-daredevil.jpg"
+                  src="http://localhost/public/assets/marvel-daredevil.jpg"
                 />
               </div>
               <div
@@ -548,7 +548,7 @@ Array [
                 <img
                   alt="Hawkeye"
                   className="img-fluid"
-                  src="./assets/marvel-hawkeye.jpg"
+                  src="http://localhost/public/assets/marvel-hawkeye.jpg"
                 />
               </div>
               <div
@@ -607,7 +607,7 @@ Array [
                 <img
                   alt="Cyclops"
                   className="img-fluid"
-                  src="./assets/marvel-cyclops.jpg"
+                  src="http://localhost/public/assets/marvel-cyclops.jpg"
                 />
               </div>
               <div
@@ -666,7 +666,7 @@ Array [
                 <img
                   alt="Silver Surfer"
                   className="img-fluid"
-                  src="./assets/marvel-silver.jpg"
+                  src="http://localhost/public/assets/marvel-silver.jpg"
                 />
               </div>
               <div

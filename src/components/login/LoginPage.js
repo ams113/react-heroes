@@ -28,7 +28,7 @@ export const LoginPage = ({ history }) => {
             <div className="form-signin">
                 <img 
                     className="rounded mb-4" 
-                    src={ window.location.origin + '/assets/logo-login.jpg' }  
+                    src={ window.location.origin + '/public/assets/logo-login.jpg' }  
                     alt="logo" 
                     width="150" 
                     height="150"

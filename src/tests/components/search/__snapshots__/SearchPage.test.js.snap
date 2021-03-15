@@ -66,7 +66,7 @@ exports[`Testing Components: SearchPage should render Batman Card and input with
               <img
                 alt="Batman"
                 className="img-fluid"
-                src="./assets/dc-batman.jpg"
+                src="http://localhost/public/assets/dc-batman.jpg"
               />
             </div>
             <div

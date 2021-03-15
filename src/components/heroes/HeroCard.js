@@ -16,7 +16,7 @@ export const HeroCard = ({
                     <div className="col-md-4">
                         <img 
                             className="img-fluid"
-                            src={`./assets/${ id }.jpg`} 
+                            src={`${window.location.origin}/public/assets/${ id }.jpg`} 
                             alt={superhero} 
                         />
                     </div>
